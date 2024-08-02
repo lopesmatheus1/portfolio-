@@ -35,11 +35,11 @@ function Header() {
       <Drawer anchor="right" open={openMenu} onClose={handleOpenMenu}>
         <NavbarMobile>
           <nav>
-            <a href="">Home</a>
-            <a href="">Soft Skills</a>
-            <a href="">Hard Skils</a>
-            <a href="">Projetos</a>
-            <a href="">Contatos</a>
+            <a href="#Hero">Home</a>
+            <a href="#Soft">Soft Skills</a>
+            <a href="#HardSkills">Hard Skils</a>
+            <a href="#Projetos">Projetos</a>
+            <a href="#Contact">Contatos</a>
           </nav>
         </NavbarMobile>
       </Drawer>

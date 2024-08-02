@@ -1,5 +1,5 @@
 import React from 'react';
-import {Project1, Project2 ,StyledContainer} from './CardsProjetos/StyledCardsProjects';
+import {Project1, Project2 ,StyledContainer, Project3} from './CardsProjetos/StyledCardsProjects';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -36,6 +36,7 @@ function ProjectsSlider() {
       >
          <SwiperSlide><Project1></Project1></SwiperSlide> 
          <SwiperSlide><Project2/></SwiperSlide> 
+         <SwiperSlide><Project3/></SwiperSlide> 
         </Swiper>
       </StyledContainer>
     </section>

@@ -1,6 +1,7 @@
 import React from 'react'
 import img1 from '../../../assets/images/portifolio.png'
 import img2 from '../../../assets/images/projetoPrevisão.png'
+import img3 from '../../../assets/images/Landing.png'
 import GIT from '../../../assets/icons/github.svg'
 import Eye from '../../../assets/icons/eye.svg'
 import styled from 'styled-components'
@@ -22,8 +23,8 @@ function Project1() {
           </p>
         </StyledText>
         <StyledButton>
-        <button>Github<a href="https://github.com/lopesmatheus1" target='blank'> <img src={GIT} alt="" /></a></button>
-        <button>Deploy<a href="https://lopesmatheus1.github.io/Portifolio/" target='blank'> <img src={Eye} alt="" /></a></button>
+        <button>Github<a href="https://github.com/lopesmatheus1/portfolio-" target='blank'> <img src={GIT} alt="" /></a></button>
+        <button>Deploy<a href="https://lopesmatheus1.github.io/portfolio-/" target='blank'> <img src={Eye} alt="" /></a></button>
         </StyledButton>
     </StyledDiv>
   );
@@ -36,10 +37,29 @@ function Project2() {
           <img src={img2} alt="" />
         </StyledImg>
         <StyledText>
-          <h2>Projeto Portfólio</h2>
+          <h2>App previsão do tempo</h2>
+          <p>Projeto pessoal de um aplicativo de previsão do tempo que faz chamada api da OpenWeatherMap. Foi feito com intuito de treinar e melhorar minhas skills
+
+          </p>
+        </StyledText>
+        <StyledButton>
+          <button>Github<a href="https://github.com/lopesmatheus1/AppPrevisaoDoTempo" target='blank'> <img src={GIT} alt="" /></a></button>
+          <button>Deploy<a href="https://lopesmatheus1.github.io/Portifolio/" target='blank'> <img src={Eye} alt="" /></a></button>
+        </StyledButton>
+    </StyledDiv>
+  );
+}
+
+function Project3() {
+  return (
+    <StyledDiv>
+        <StyledImg>
+          <img src={img3} alt="" />
+        </StyledImg>
+        <StyledText>
+          <h2>Projeto de Landing Page</h2>
           <p>
-            Projeto realizado para construção do meu portfólio profissional,
-            feito utilizando ReactJS, JavaScript, HTML5 e CSS3
+           Projeto de uma landing page inspirado em uma loja de joias online, utilizei um template da LandingPage.com.br como inspiração
           </p>
         </StyledText>
         <StyledButton>
@@ -50,7 +70,7 @@ function Project2() {
   );
 }
 
-export {Project1, StyledContainer, Project2}
+export {Project1, StyledContainer, Project2, Project3}
 // Funções para introduzir meus projetos-------------------
 
 
