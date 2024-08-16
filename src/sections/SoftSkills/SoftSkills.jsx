@@ -1,4 +1,4 @@
-import styles from './SoftSkills.module.css'
+
 import { CardList } from './cards/Cards'
 
 
