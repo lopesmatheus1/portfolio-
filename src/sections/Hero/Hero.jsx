@@ -1,6 +1,6 @@
 import Avatar from '../../assets/images/Avatar.png'
 import GitHub from '../../assets/icons/github.svg'
-import {Container,ColorModeContainer , Info, GitBtn, StyledImg} from './HeroStyles.jsx'
+import {Container,ColorModeContainer , Info, GitBtn, StyledImg} from './HeroStyles.js'
 
 
 

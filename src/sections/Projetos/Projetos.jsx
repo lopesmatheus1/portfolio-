@@ -4,9 +4,10 @@ import {
   ProjectItens,
   StyledText,
   ProjectItensReverse,
-  ProjectItemImage,
+  ProjectItemLandingPage,
   GitDeployButton,
-  ProjectItemImage1,
+  ProjectItemPrevisao,
+  ProjectItemPortfolio,
 } from "./Styles";
 
 function Projetos() {
@@ -16,7 +17,7 @@ function Projetos() {
 
       <StyledContainer>
         <ProjectItens>
-          <ProjectItemImage />
+          <ProjectItemLandingPage />
           <StyledText>
             <h3>Landing Page project</h3>
             <p>
@@ -37,16 +38,15 @@ function Projetos() {
         </ProjectItens>
 
         <ProjectItensReverse>
-          <ProjectItemImage1></ProjectItemImage1>
-
+          <ProjectItemPrevisao />
           <StyledText>
             <h3>Projeto Previsão do tempo</h3>
             <p>
               Este projeto é uma aplicação web desenvolvida em React que fornece
               previsões climáticas em tempo real utilizando a API da
-              OpenWeatherMap. A interface é responsiva e permite que o
-              usuário visualize as condições atual do clima de qualquer
-              cidade, bem como a previsão para os próximos dias.
+              OpenWeatherMap. A interface é responsiva e permite que o usuário
+              visualize as condições atual do clima de qualquer cidade, bem como
+              a previsão para os próximos dias.
             </p>
             <div>
               <GitDeployButton>
@@ -57,7 +57,31 @@ function Projetos() {
               </GitDeployButton>
             </div>
           </StyledText>
+          
         </ProjectItensReverse>
+
+        <ProjectItens>
+          <ProjectItemPortfolio />
+          <StyledText>
+            <h3>Projeto Portfólio Programador</h3>
+            <p>
+              Este projeto de portfólio foi desenvolvido em React com o objetivo
+              de apresentar os meu projetos e habilidades. Foi utilizado
+              styled-components para a estilização e responsividade. Cada
+              projeto é destacado com uma breve descrição, tecnologias
+              utilizadas e links para o código-fonte e deploy, facilitando a
+              navegação e a compreensão das experiências.
+            </p>
+            <div>
+              <GitDeployButton>
+                <a href="">Github</a>
+              </GitDeployButton>
+              <GitDeployButton>
+                <a href="">Deploy</a>
+              </GitDeployButton>
+            </div>
+          </StyledText>
+        </ProjectItens>
       </StyledContainer>
     </section>
   );

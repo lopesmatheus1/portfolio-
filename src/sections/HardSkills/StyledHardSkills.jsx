@@ -6,7 +6,7 @@ const StyledCard = styled.div`
     justify-content: center;
     flex-direction: column;
     width: 200px;
-    height: 277px;
+    height: 240px;
     padding: 40px;
     background-color: var(--dark2);
     border-radius: 10px;

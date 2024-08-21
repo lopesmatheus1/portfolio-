@@ -11,7 +11,7 @@ function SoftSkills() {
       justifyContent:'center',
       flexDirection:'column'
     }}>
-     <h2 style={{textAlign:"center", color:"cyan"}}>Soft Skills</h2>
+     <h2 style={{textAlign:"center", color:"cyan", marginBottom:'120px'}}>Soft Skills</h2>
       <CardList/>
     </section>
   )

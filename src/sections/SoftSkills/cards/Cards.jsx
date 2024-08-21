@@ -24,22 +24,22 @@ import {StyledCard, StyledTitleHr, StyledCardText, SoftInterface} from './card1'
     {
       number: "01",
       title: "Liderança",
-      content: "Atuando como diretor, desenvolvi meu senso de liderança, aprimorei minhas habilidades de comunicação e gestão de equipes, deleguei tarefas para os membros, ministrei treinamentos e auxiliei para um ambiente de trabalho leve para todos."
+      content: "Como diretor, desenvolvi liderança, aprimorando habilidades de comunicação e gestão de equipes. Deleguei tarefas, ministrei treinamentos e promovi um ambiente de trabalho positivo."
     },
     {
       number: "02",
       title: "Trabalho em equipe",
-      content: "Durante minha graduação e enquanto atuava na empresa júnior, trabalhei em diversas áreas de equipe, desenvolvendo habilidades de colaboração e comunicação em diferentes contextos. Isso incluiu a realização de trabalhos em grupo, a redação de documentos e a participação em projetos."
+      content: "Na graduação e na empresa júnior, trabalhei em diversas equipes, desenvolvendo colaboração e comunicação em diferentes contextos. Participei de projetos, redigi documentos e trabalhei em grupo."
     },
     {
       number: "03",
       title: "Comunicação e escrita",
-      content: "Tenho experiência significativa na redação de documentos, incluindo contratos, propostas e documentos comerciais, o que me permite transmitir informações complexas de maneira precisa e coesa. Além disso, possuo facilidade em me comunicar em público, o que me ajuda a apresentar ideias e informações de forma confiante e impactante."
+      content: "Tenho ampla experiência na redação de contratos, propostas e documentos comerciais, transmitindo informações complexas de forma precisa e coesa. Comunico-me com facilidade em público, o que me permite apresentar ideias com confiança e impacto."
     },
     {
       number: "04",
       title: "Aprendizado constante",
-      content: "Tenho consciência de que a área da tecnologia está em constante evolução e, por isso, me dedico a estudar e aprimorar minhas habilidades todos os dias. Para acompanhar essas mudanças, tento me atualizar constantemente por meio de cursos, videoaulas e também realizando projetos para ampliar meu portfólio."
+      content: "Consciente da constante evolução tecnológica, dedico-me a aprimorar habilidades diariamente. Mantenho-me atualizado com cursos, videoaulas e projetos para expandir meu portfólio."
     }
   ];   
   
