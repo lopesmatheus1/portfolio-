@@ -15,9 +15,9 @@ function Header() {
   return (
     <header>
       <StyledHeader>
-        <a href="#Hero">
+        <Link to="Hero" smooth={true} duration={800} style={{cursor:'pointer'}}>
           <img src={Logo} alt="" />
-        </a>
+        </Link>
         <nav>
           <Link to="Hero" smooth={true} duration={800} style={{cursor:'pointer'}}>Home</Link>
           <Link to="Soft" smooth={true} duration={800} style={{cursor:'pointer'}}>Soft Skills</Link>
